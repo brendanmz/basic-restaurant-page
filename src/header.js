@@ -1,6 +1,8 @@
+import headerImageSrc from "./images/header-image.jpg";
+
 const headerContent = () => {
     const headerImage = document.createElement('img');
-    headerImage.src = "../images/header-image.jpg";
+    headerImage.src = headerImageSrc;
 
     const pageTitle = document.createElement('h1');
     pageTitle.innerHTML = "Ron's Ramen";
